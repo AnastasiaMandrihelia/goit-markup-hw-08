@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    color: var(--primary-text-color-dark);
+    /* gap: 30px; */
+}
+
+.about__item {
+    width: 270px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+
+
+
+.about__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.about__box {
+    @extend %align;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+}
+.about__subtitle {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-transform: none;
+    margin-top: 10px;
+    color: var(--secondary-text-color-dark);
+}

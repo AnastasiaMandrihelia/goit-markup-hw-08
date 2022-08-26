@@ -1,0 +1,35 @@
+:root {
+  --primary-text-color-dark: #212121;
+  --secondary-text-color-dark: #757575;
+  --primary-text-color-light: #ffffff;
+  --accent-color: #2196f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=main.css.map */
