@@ -2,7 +2,7 @@
     padding-top: 0;
 }
 
-.info__title {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-}.product__subtitle {
+}.work__subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -29,7 +29,7 @@
     color: #ffffff;
 }
 
-.product {
+.work__box {
     position: absolute;
     display: block;
     width: 370px;
