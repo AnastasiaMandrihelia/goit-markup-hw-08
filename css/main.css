@@ -102,10 +102,10 @@ body {
   color: var(--accent-color);
 }
 
-.current {
+.menu__link--current {
   color: var(--accent-color);
 }
-.current::after {
+.menu__link--current::after {
   position: absolute;
   content: ' ';
   display: block;

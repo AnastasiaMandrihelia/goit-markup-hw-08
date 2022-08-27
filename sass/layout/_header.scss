@@ -19,7 +19,7 @@
 }
 
 
-.current {
+.menu__link--current {
     color: var(--accent-color);
    &::after {
             position: absolute;
@@ -102,7 +102,7 @@
 
 
 
-.contacts__item :hover .contacts__icon,
-.contacts__item :focus .contacts__icon {
+.contacts__item:hover .contacts__icon,
+.contacts__item:focus .contacts__icon {
     fill: var(--accent-color);
 }
