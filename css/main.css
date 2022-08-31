@@ -547,7 +547,7 @@ body {
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/mobile/hero/hero-480/hero-480.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero/hero-480/hero-480.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -558,7 +558,7 @@ body {
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/mobile/hero/hero-480/hero-480@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero/hero-480/hero-480@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -594,7 +594,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media screen and (min-widht: 768px) {
   .hero__title {
