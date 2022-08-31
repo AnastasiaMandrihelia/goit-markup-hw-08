@@ -1,25 +1,27 @@
+//
+@media screen and (max-widht: 480px) {
+  .about {
+    display: block;
+    color: var(--primary-text-color-dark);
+    gap: 30px;
+
+    flex-wrap: wrap;
+  }
+}
 @media screen and (min-widht: 768px) {
   .about {
     display: flex;
     color: var(--primary-text-color-dark);
     gap: 30px;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
   }
 }
-@media screen and (max-widht: 480px) {
+@media screen and (min-widht: 1200px) {
   .about {
     display: flex;
     color: var(--primary-text-color-dark);
     gap: 30px;
-
-    flex-wrap: wrap;
   }
-}
-
-.about {
-  display: flex;
-  color: var(--primary-text-color-dark);
-  gap: 30px;
 }
 
 .about__item {
