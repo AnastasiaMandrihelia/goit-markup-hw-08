@@ -18,7 +18,7 @@
   margin: -1px;
 }
 
-.join-link, .client__link, .client, .social__link, .work__box, .about__box, .form-check-desk, .modal-close-button {
+.join-link, .client__link, .client, .social__link, .work__box, .form-check-desk, .modal-close-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -634,50 +634,29 @@ body {
   background: #2196f3;
 }
 
-@media screen and (max-widht: 480px) {
+@media screen and (min-width: 768px) {
   .about {
-    display: block;
-    color: var(--primary-text-color-dark);
-    gap: 30px;
+    display: flex;
     flex-wrap: wrap;
+    margin-right: -30px;
   }
 }
-@media screen and (min-widht: 768px) {
-  .about {
-    display: flex;
-    color: var(--primary-text-color-dark);
-    gap: 30px;
-  }
-}
-@media screen and (min-widht: 1200px) {
-  .about {
-    display: flex;
-    color: var(--primary-text-color-dark);
-    gap: 30px;
-  }
-}
+
 .about__item {
   margin-bottom: 30px;
 }
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
   .about__item {
     width: calc((100% - 60px) / 2);
     margin-right: 30px;
   }
 }
-@media screen and (min-widht: 1200px) {
+@media screen and (min-width: 1200px) {
   .about__item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
     margin-bottom: 0px;
   }
-}
-
-.about__item {
-  width: 270px;
-}
-.about__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .about__item:last-child {
@@ -690,37 +669,37 @@ body {
   }
 }
 
+.about__box {
+  width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
 .about__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
   text-transform: uppercase;
+  color: var(--primary-head-text);
   text-align: center;
 }
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
   .about__title {
     text-align: left;
   }
 }
 
-.about__box {
-  width: 100%;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
-}
-
 .about__subtitle {
+  margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-transform: none;
-  margin-top: 10px;
-  width: 100%;
-  color: var(--secondary-text-color-dark);
+  color: var(--secondary-text);
 }
 
 .info {
