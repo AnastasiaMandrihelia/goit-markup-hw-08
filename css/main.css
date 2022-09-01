@@ -702,7 +702,7 @@ body {
   color: var(--secondary-text);
 }
 
-.info {
+.section--not-pading-top {
   padding-top: 0;
 }
 
