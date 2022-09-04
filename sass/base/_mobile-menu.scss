@@ -19,6 +19,8 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+
+
 }
 
 .mobile-menu-open {
@@ -28,6 +30,7 @@
   line-height: 0;
   top: 10px;
   right: 10px;
+  width: 480px;
 }
 
 .mobile-menu__close-btn {
